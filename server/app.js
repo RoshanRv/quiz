@@ -15,6 +15,8 @@ app.use(
   })
 );
 
+console.log("Hello");
+
 app.get("/health", (req, res) => res.send(200));
 
 app.post("/quiz", (req, res) => {
